@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(to left, rgb(12, 50, 100),rgb(141, 173, 231),rgb(12, 50, 100));
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
+}
+nav a{ 
+    margin-right: 8px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+   transition: ease;
+  transition-duration: 1.0s;
+   background-color: rgb(0, 132, 255);
+   padding: 0px 4px;
+   border-radius: 4px;
+}
+a:active{
+    transition: ease;
+  transition-duration: 1.0s;
+   background-color: rgb(0, 132, 255);
+   padding: 0px 4px;
+   border-radius: 4px;
+}
+
+.video video{
+    width: 340px;
+    height: 340px;
+    border-radius: 20px;
+}
+.img img{ 
+    border-radius: 20px;
+    width: 340px;
+    margin: 25px;
+}
+
+hr{
+    background-color: rgb(9, 9, 198);
+    border: none;
+    height: 3px;
+}
+
